@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower of Evil Quiz</title>
+    <link rel="icon" type="image/x-icon" href="/Homework/img/favicon.ico">
+    <link rel="stylesheet" href="./KD-Quiz.css">
+    <style>
+    #Quizzz {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1 id="Quizzz">Quiz Time!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a class="active" href="./KD-Quiz.html">Quiz</a></li>
+            <li><a href="./KD-Contact.html">Contact</a></li>
+          </ul>
+    </nav>
+    <article>
+        <h2>Quiz - Flower Of Evil</h2>
+        <p>Did you enjoy watching Flower of Evil ? :</p>
+        <br>
+        <form action="./confirmation.html">
+        <input type="radio" id="Yes" name="love" value="Yep">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="love" value="Nope">
+        <label for="No">No</label>
+        <br><br>
+        <p>How do Baek Hee Sung (Lee Joon Gi) and Cha Ji Won (Moon Chae Won) first meet?</p>
+        <input type="checkbox" id="option1" name="option1" value="Library">
+        <label for="option1">In a library</label><br>
+        <input type="checkbox" id="option2" name="option2" value="convenience">
+        <label for="option2">Convenience store</label><br>
+        <input type="checkbox" id="option3" name="option3" value="Park">
+        <label for="option3">In a park</label><br>
+        <input type="checkbox" id="option4" name="option4" value="Work">
+        <label for="option4">At work</label>
+        <br><br>
+        <p>Click the button to upload the picture of your favourite character of Flower of Evil</p>
+        <input type="file" id="Myfile">
+        <br><br>
+        <p><label for="comment">Describe why he/she is your favourite.</label></p>
+            <textarea id="comment" name="comment" rows="4" cols="50">Write here</textarea>
+            <br><br>
+            <label for="New">Which other drama have you watched ?</label><br><br>
+            <select name="New" id="New">
+                <option value="movetoheaven">Move to heaven</option>
+              <option value="BusinessProp"> Business proposal</option>
+              <option value="Itsokaynottobeokay">It's okay not to be okay</option>
+              <option value="Theinterestoflove">The interest of Love</option>
+            </select>
+            <br><br>
+            <input type="Reset">
+            <input type="submit">
+            <br><br></form>
+    </article>
+</body>
+</html>
